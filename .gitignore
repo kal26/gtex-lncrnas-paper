@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pixi
+.pixi/
+
+# Local
+zenodo_upload/
+zenodo_packages/
+notebooks_runnable/
+coloc/refs/wb_single_phenotype/
+
+# Notebooks / editor
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+.vscode/
+.idea/

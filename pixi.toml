@@ -1,0 +1,135 @@
+[project]
+authors = ["katelawrence <klawren@stanford.edu>"]
+channels = ["dnachun", "conda-forge", "bioconda"]
+description = "lncRNA GTEx paper analysis environments"
+name = "lncrna_gtex"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[feature.notebooks.dependencies]
+python = "==3.12.16"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+matplotlib = "==3.10.9"
+seaborn = "==0.13.2"
+scipy = "==1.16.3"
+statsmodels = "==0.15.0"
+scikit-learn = "==1.9.1"
+tqdm = "==4.67.3"
+pyarrow = "==26.0.1"
+openpyxl = "==3.1.5"
+pysam = "==0.24.1"
+ipykernel = "==7.4.0"
+jupyterlab = "==4.6.6"
+ipywidgets = "==8.1.9"
+
+[feature.coloc.dependencies]
+python = "==3.12.16"
+pandas = "==2.3.3"
+pyarrow = "==26.0.1"
+tqdm = "==4.67.3"
+# Paper versions (dnachun). r-pecotmr 0.5.0 has since been yanked from the channel.
+r-pecotmr = "==0.5.0"
+r-argparser = "==0.7.3"
+r-readr = "==2.1.6"
+r-biocmanager = "==1.30.27"
+r-colocboost = "==1.0.4"
+tabix = "==1.11"
+plink = "==1.90"
+
+[feature.intergenic-null.dependencies]
+rnaseqc = "==2.4.2"
+bedtools = "==2.31.1"
+python = "==3.12.16"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+scipy = "==1.16.3"
+tqdm = "==4.67.3"
+openpyxl = "==3.1.5"
+
+[feature.annotation.dependencies]
+python = "==3.12.16"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+pyarrow = "==26.0.1"
+pyranges = "==0.1.7"
+pybigwig = "==0.3.30"
+statsmodels = "==0.15.0"
+
+[feature.variant-annotation.dependencies]
+ensembl-vep = "==113.3"
+python = "==3.12.16"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+scipy = "==1.16.3"
+pyarrow = "==26.0.1"
+
+[feature.variant-annotation.pypi-dependencies]
+firthmodels = "==0.8.2"
+
+[feature.ldsc-prep.dependencies]
+python = "==3.12.16"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+scipy = "==1.16.3"
+pyarrow = "==26.0.1"
+
+[feature.ldsc.dependencies]
+# bioconda LDSC is Python 2 / pandas<0.21; keep isolated from modern envs.
+ldsc = "==1.0.1"
+
+[feature.alphagenome-qtl.dependencies]
+python = "==3.12.15"
+numpy = "==2.3.5"
+pandas = "==2.3.3"
+scipy = "==1.16.3"
+pyarrow = "==19.0.1"
+pyyaml = "==6.0.3"
+scikit-learn = "==1.9.1"
+matplotlib = "==3.10.9"
+pyfaidx = "==0.9.2.2"
+pyranges = "==0.1.7"
+pybigwig = "==0.3.24"
+pip = "==26.2.2"
+hatchling = "==1.33.0"
+importlib-resources = "==7.1.0"
+hdf5 = "==1.14.6"
+h5py = "==3.16.0"
+ml_dtypes = "==0.5.4"
+gxx_linux-64 = "==16.2.0"
+grpcio = "==1.67.1"
+grpcio-tools = "==1.67.1"
+optree = "==0.19.1"
+
+[feature.alphagenome-qtl.pypi-options]
+no-build-isolation = [
+  "alphagenome-ft",
+  "alphagenome",
+  "alphagenome-research",
+]
+
+[feature.alphagenome-qtl.pypi-dependencies]
+tensorstore = "==0.1.74"
+jax = "==0.5.3"
+jaxlib = "==0.5.3"
+jax-cuda12-plugin = "==0.5.3"
+nvidia-cudnn-cu12 = "==9.1.0.70"
+alphagenome-ft = "==0.1.12"
+alphagenome = { git = "https://github.com/google-deepmind/alphagenome.git", tag = "v2.0.0" }
+alphagenome-research = { git = "https://github.com/google-deepmind/alphagenome_research.git", rev = "3eecf48e58d7babbbc53525a8a0cf29a179e20a6" }
+
+[system-requirements]
+linux = "3.10"
+libc = "2.17"
+
+[environments]
+notebooks = ["notebooks"]
+annotation = ["annotation"]
+intergenic-null = ["intergenic-null"]
+variant-annotation = ["variant-annotation"]
+ldsc-prep = ["ldsc-prep"]
+ldsc = ["ldsc"]
+# coloc env not installable from current channels (paper pin r-pecotmr 0.5.0 yanked).
+# Versions above record what was used; see coloc/README.md.
+# coloc = ["coloc"]
+alphagenome-qtl = ["alphagenome-qtl"]

@@ -1,0 +1,70 @@
+tissue_name	tissue_stem
+Adipose - Subcutaneous	Adipose_Subcutaneous
+Adipose - Visceral (Omentum)	Adipose_Visceral_Omentum
+Adrenal Gland	Adrenal_Gland
+Artery - Aorta	Artery_Aorta
+Artery - Coronary	Artery_Coronary
+Artery - Femoral	Artery_Femoral
+Artery - Tibial	Artery_Tibial
+Bladder	Bladder
+Brain - Amygdala	Brain_Amygdala
+Brain - Anterior cingulate cortex (BA24)	Brain_Anterior_cingulate_cortex_BA24
+Brain - Caudate (basal ganglia)	Brain_Caudate_basal_ganglia
+Brain - Cerebellar Hemisphere	Brain_Cerebellar_Hemisphere
+Brain - Cerebellum	Brain_Cerebellum
+Brain - Cortex	Brain_Cortex
+Brain - Frontal Cortex (BA9)	Brain_Frontal_Cortex_BA9
+Brain - Hippocampus	Brain_Hippocampus
+Brain - Hypothalamus	Brain_Hypothalamus
+Brain - Nucleus accumbens (basal ganglia)	Brain_Nucleus_accumbens_basal_ganglia
+Brain - Putamen (basal ganglia)	Brain_Putamen_basal_ganglia
+Brain - Spinal cord (cervical c-1)	Brain_Spinal_cord_cervical_c-1
+Brain - Substantia nigra	Brain_Substantia_nigra
+Breast - Mammary Tissue	Breast_Mammary_Tissue
+Cells - Cultured fibroblasts	Cells_Cultured_fibroblasts
+Cells - EBV-transformed lymphocytes	Cells_EBV-transformed_lymphocytes
+Cervix - Ectocervix	Cervix_Ectocervix
+Cervix - Endocervix	Cervix_Endocervix
+Colon - Sigmoid	Colon_Sigmoid
+Colon - Transverse	Colon_Transverse
+Colon - Transverse - Mixed Cell	Colon_Transverse_Mixed_Cell
+Colon - Transverse - Mucosa	Colon_Transverse_Mucosa
+Colon - Transverse - Muscularis	Colon_Transverse_Muscularis
+Esophagus - Gastroesophageal Junction	Esophagus_Gastroesophageal_Junction
+Esophagus - Mucosa	Esophagus_Mucosa
+Esophagus - Muscularis	Esophagus_Muscularis
+Fallopian Tube	Fallopian_Tube
+Heart - Atrial Appendage	Heart_Atrial_Appendage
+Heart - Left Ventricle	Heart_Left_Ventricle
+Kidney - Cortex	Kidney_Cortex
+Kidney - Medulla	Kidney_Medulla
+Liver	Liver
+Liver - Hepatocyte	Liver_Hepatocyte
+Liver - Mixed Cell	Liver_Mixed_Cell
+Liver - Portal Tract	Liver_Portal_Tract
+Lung	Lung
+Minor Salivary Gland	Minor_Salivary_Gland
+Muscle - Skeletal	Muscle_Skeletal
+Nerve - Tibial	Nerve_Tibial
+Ovary	Ovary
+Pancreas	Pancreas
+Pancreas - Acini	Pancreas_Acini
+Pancreas - Islets	Pancreas_Islets
+Pancreas - Mixed Cell	Pancreas_Mixed_Cell
+Pituitary	Pituitary
+Prostate	Prostate
+Skin - Not Sun Exposed (Suprapubic)	Skin_Not_Sun_Exposed_Suprapubic
+Skin - Sun Exposed (Lower leg)	Skin_Sun_Exposed_Lower_leg
+Small Intestine - Terminal Ileum	Small_Intestine_Terminal_Ileum
+Small Intestine - Terminal Ileum - Lymphoid Aggregate	Small_Intestine_Terminal_Ileum_Lymphoid_Aggregate
+Small Intestine - Terminal Ileum - Mixed Cell	Small_Intestine_Terminal_Ileum_Mixed_Cell
+Spleen	Spleen
+Stomach	Stomach
+Stomach - Mixed Cell	Stomach_Mixed_Cell
+Stomach - Mucosa	Stomach_Mucosa
+Stomach - Muscularis	Stomach_Muscularis
+Testis	Testis
+Thyroid	Thyroid
+Uterus	Uterus
+Vagina	Vagina
+Whole Blood	Whole_Blood

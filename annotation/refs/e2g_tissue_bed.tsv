@@ -1,0 +1,16 @@
+# 12 GTEx-matched ENCODE-rE2G tissues (Gschwind et al. Nature 657:179-190, 2026).
+# Download thresholded element-gene BEDs from https://www.encodeproject.org/files/{accession}/
+# Place as {file} under --e2g-dir (or point file at an absolute path).
+tissue	file	accession	label
+Brain_Cortex	Brain_Cortex.ENCFF194CBN.bed.gz	ENCFF194CBN	Brain Cortex
+Cells_EBV-transformed_lymphocytes	Cells_EBV-transformed_lymphocytes.ENCFF162ADG.bed.gz	ENCFF162ADG	EBV-transformed lymphocytes
+Colon_Sigmoid	Colon_Sigmoid.ENCFF844AWZ.bed.gz	ENCFF844AWZ	Sigmoid Colon
+Colon_Transverse	Colon_Transverse.ENCFF194QZX.bed.gz	ENCFF194QZX	Transverse Colon
+Heart_Left_Ventricle	Heart_Left_Ventricle.ENCFF695YYV.bed.gz	ENCFF695YYV	Left Ventricle
+Liver	Liver.ENCFF216HEG.bed.gz	ENCFF216HEG	Liver
+Lung	Lung.ENCFF941LWH.bed.gz	ENCFF941LWH	Lung
+Muscle_Skeletal	Muscle_Skeletal.ENCFF179LQB.bed.gz	ENCFF179LQB	Skeletal Muscle
+Pancreas	Pancreas.ENCFF808GUC.bed.gz	ENCFF808GUC	Pancreas
+Prostate	Prostate.ENCFF213ARV.bed.gz	ENCFF213ARV	Prostate
+Skin_Not_Sun_Exposed_Suprapubic	Skin_Not_Sun_Exposed_Suprapubic.ENCFF438NVX.bed.gz	ENCFF438NVX	Not Sun-Exposed Suprapubic Skin
+Skin_Sun_Exposed_Lower_leg	Skin_Sun_Exposed_Lower_leg.ENCFF557BXA.bed.gz	ENCFF557BXA	Sun-Exposed Lower Leg Skin
